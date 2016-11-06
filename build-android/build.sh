@@ -1,8 +1,8 @@
 #!/bin/sh
 
 build_version=2
-ANDROID_PLATFORM=android-16
-archs="armeabi armeabi-v7a x86"
+ANDROID_PLATFORM=android-24
+archs="armeabi armeabi-v7a x86 arm64-v8a"
 package_name=tidy-html5-android
 
 current_dir="`pwd`"
